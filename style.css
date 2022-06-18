@@ -70,6 +70,7 @@ body {
   background-color: #31313a;
   height: 600px;
   box-shadow: -9px -9px 0px 9px #10101475;
+  z-index: 2;
 }
 .image {
   height: 40%;
@@ -180,7 +181,7 @@ body {
 .content-container-all {
   /* opacity: 0; */
   background-color: #26262d;
-  z-index: -2;
+  z-index: 1;
 }
 .content-container {
   display: flex;
@@ -197,7 +198,7 @@ body {
   opacity: 0;
   background-color: #31313a;
   transform: translateX(-150px);
-  z-index: -1;
+  z-index: 1;
   pointer-events: none;
 }
 
